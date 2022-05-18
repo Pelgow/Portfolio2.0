@@ -42,13 +42,13 @@ btnToggle.addEventListener('click', () => {
 
         body.classList.add('light')
         body.classList.remove('dark')
-        btnToggle.innerHTML = "Night Dev"
+        btnToggle.innerHTML = "Menu Soir"
 
     } else if(body.classList.contains('light')){
 
         body.classList.add('dark')
         body.classList.remove('light')
-        btnToggle.innerHTML = "Day Dev"
+        btnToggle.innerHTML = "Menu Midi"
 
     }
 
